@@ -1,0 +1,315 @@
+/*
+Theme Name: Travel
+Theme URI: https://tourandtravelblog.com
+Author: Viacon Design & Development Team
+Author URI: https://www.viacon.in/
+Description: Travel blog site
+Version: 1.0
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Tags: one-column, two-columns, right-sidebar, accessibility-ready, custom-background, custom-colors, custom-header, custom-menu, editor-style, featured-images, flexible-header, microformats, post-formats, rtl-language-support, sticky-post, threaded-comments, translation-ready, blog
+Text Domain: travel
+
+This theme, like WordPress, is licensed under the GPL.
+Use it to make something cool, have fun, and share what you've learned with others.
+*/
+.accessily-verification {
+    opacity: 0;
+    pointer-events: none;
+}
+a.accessily-verification img {
+    width: 10%;
+}
+.cat-pagi .nav-links span.page-numbers.dots {
+    box-shadow: none !important;
+    background: transparent !important;
+    color: #808080 !important;
+}
+nav.navbar.navbar-expand-lg { flex-wrap: wrap; }
+.top-search input.search-field {
+    width: 50%;
+    right: 0px;
+    position: absolute;
+    max-width: 350px;
+    border-radius: 0px;
+}
+.top-search { width: 100%;
+    position: absolute;
+    top: 100%; }
+.travel-search i { color: #fff; }
+.travel-search { cursor: pointer; }
+.single .card-text ul li a {     text-decoration: underline !important; }
+.archive.category .taxonomy-details {
+    height: 100%;
+    background-position: center !important;
+    background-repeat: no-repeat !important;
+    background-size: cover !important;
+    
+}
+.archive.category header.page-header { padding: 0px; text-shadow: 0 0 5px rgba(255, 255, 255, 0.8); color: black; border: none;}
+.archive header.page-header {
+    position: relative;
+    overflow: auto;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+    border: none;
+}
+
+.archive.category header.page-header {
+    position: relative;
+    min-height: 230px;
+    height: 35vmin;
+    overflow: auto;
+}
+
+.archive .taxonomy-details {
+    position: absolute;
+    background: rgba(0, 0, 0, 0.35);
+    padding: 5vmin;
+}
+.archive.tag header.page-header { min-height: 61px !important; }
+.archive .category-image { float: left;  width: 100%;
+    object-fit: cover;
+    height: 206px;
+    margin-right: 15px;
+    margin-bottom: 5px; }
+.archive .page-title {
+    font-size: 30px;
+}
+.single-post .card-text img { display: inherit; }
+ul#menu-header-menu li { margin-right: 25px; }
+.commment-nubmer-div:after {
+    content: "^";
+    font-size: 2rem;
+    transform: rotate(90deg) translatex(-100%);
+    position: absolute;
+    right: 1.5%;
+    transform-origin: center center;
+    transition: 0.3s;
+}
+.commment-nubmer-div.active:after {
+    transform: rotate(180deg);
+    /* transition: 0.3s; */
+}
+div#comments {
+    position: relative;
+}
+.row.credits { border-top: 1px solid #cccccc1c;
+    margin-top: 15px;
+    margin-bottom: 10px;
+}
+.sidebar-section section:last-child {
+    visibility: hidden;
+}
+.card-text p a, .author-info p a { color: inherit !important; text-decoration: underline; text-decoration-color: rgba(0, 0, 0, 0.6); font-weight: inherit; }
+
+.content-details { margin-top: 20px; }
+.content-div {
+    padding: 0 25px;
+}
+.archive .taxonomy-description { margin-top: 15px; }
+.author .page-header { min-height: 175px; }
+header.page-header { padding: 10px; border: 1px solid #ccc; margin-bottom: 20px; }
+.cat-pagi nav { position: relative !important; }
+.cat-pagi .nav-links { text-align: center; }
+.header-gap { margin-top: 90px; }
+.cat-pagi { margin: 0 auto; padding: 20px 0 36px 0; }
+.cat-pagi .screen-reader-text { display: none; }
+.cat-pagi nav { background: none; }
+.cat-pagi span.page-numbers.current { border: 1px solid #297AD6; border-radius: 50px; padding: 5px 13px; font-size: 20px; background: #297AD6; color: #fff; }
+.cat-pagi .nav-links a { border: 1px solid #297AD6; padding: 5px 13px; border-radius: 50px; font-size: 20px; color: #297AD6 !important; text-decoration: none; }
+.cat-pagi .nav-links span, .nav-links a {
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.2);
+    border: none !important;
+    margin: 3px;
+    transition: background-color 0.3s, color 0.3s;
+}
+.cat-pagi .nav-links span, .nav-links a:hover {
+    background-color: rgb(41,122,214) !important;
+    color: white !important;
+}
+h2.listing-post-title { padding: 15px 0px 12px 5px; }
+.popular-post-section { margin-top: 40px; border-top: 1px solid #ccc; }
+nav.navbar a.navbar-brand { margin-left: 10px; }
+h2.page-heading { text-align: center; border-bottom: 1px solid #007bff; width: 50%; margin: 0 auto; }
+
+.contact-page-form { width: 80%; margin: 0 auto; }
+.contact-page-form input[type="submit"] { background: #007bff; border: none; color: #fff; padding: 8px; border-radius: 5px; width: 20%; float: right; }
+.contact-page-form input[type="submit"]:hover { background-color: #297AD6; color: white; }
+
+
+/******************* Comment section ******************/
+#comments ol { list-style: none; }
+.commment-nubmer-div {
+    background: white;
+    padding: 20px;
+    box-shadow: 0 1px 5px rgba(0, 0, 0, 0.2);
+    border-radius: 0.25rem;
+    z-index: 3;
+    position: relative;
+}
+.commment-body {  margin-top: -20px; border: none !important;
+    -webkit-box-shadow: 0 3px 10px whitesmoke;
+    box-shadow: 0 3px 10px whitesmoke;
+    padding: 15px;
+    border-radius: 3px;
+}
+.comment-form .comment-form-url , .comments-area h2.comments-title { display: none; }
+.comment-form textarea#comment { height: 100px; width: 100%; border-radius: 6px; }
+.comment-list li { /* margin-left: -42px; */ }
+.comment-respond .comment-form-comment label, .comment-respond .comment-form-author label, .comment-respond .comment-form-email label { min-width: 100px !important; }
+#respond  input[type="text"], #respond  input[type="email"], #respond textarea { border-radius: 6px; width: 100%; padding: 5px; border: 1px solid #ced4da; }
+#respond { border-top: 1px solid #eee; padding: 20px 42px 20px 42px; }
+#respond input#submit { border-radius: 6px; background: #007bff; color: #fff; border: 1px solid #fff; padding: 8px; width: 100%; }
+#respond input#submit:hover { background-color: #297AD6; color: white; }
+form#commentform { width: 100%;
+    max-width: 600px; }
+ol.comment-list article { border: 1px solid #eee; padding: 15px; }
+ol.comment-list footer { background:#fff; color: #000; }
+.comment-list li { margin-bottom: 20px; margin-top: 20px; }
+ol.comment-list article img { height: 36px; width: 36px; border-radius: 20px; }
+ol .comment-list footer a:hover { color:#000 !Important; }
+
+.single span.tags-title {
+    display: inline-block;
+    background: #007bff;
+    position: relative;
+    height: 24px;
+    line-height: 26px; font-size: 12px;
+    font-weight: 600;
+    padding: 0 5px 0 7px;
+    color: #fff;
+    margin-right: 28px;
+    text-transform: uppercase;
+}
+.single span.tags-title:after {
+    content: '';
+    width: 0;
+    height: 24px;
+    position: absolute;
+    top: 0;
+    left: 100%;
+    border-top: 12px solid transparent;
+    border-bottom: 12px solid transparent;
+    border-left: 10px solid #007bff;
+}
+footer .comment-metadata a:hover { color: #000 !important; text-decoration:none; }
+.single-post .card-text img { max-width: 100%; height: auto; border: 1px solid #eee; padding: 5px; }
+
+/****************************************/
+p#link-copy-msg {
+    color: #5dd05d;
+    border: 1px solid;
+    padding: 5px;
+    width: 270px;
+    margin-left: -80px;
+    margin-top: 20px;
+    text-align: center;
+}
+.archive p#link-copy-msg { margin-left: -40px; }
+.footer-newsletter .emaillist .es-field-wrap { color: transparent !important; margin-top: -20px; }
+.footer-newsletter .emaillist .es-field-wrap input { padding: 5px; border-radius: 2px; border: 1px solid rgba(0, 0, 0, 0.2); }
+.footer-newsletter .emaillist input[type="submit"] { margin-top: 6px !important; border-radius: 2px; }
+.single ul.social-sidebar {
+    margin-top: -10px;
+}
+.home .related-entries img {
+    height: 250px;
+    width: 100%;
+    object-fit: cover;
+}
+.home .related-entries .card3 {
+    -webkit-box-shadow: 0 3px 12px rgba(16, 14, 23, 0.25);
+    box-shadow: 0 3px 12px rgba(16, 14, 23, 0.25);
+    padding: 0px;
+    width: 100%;
+    height: 100%;
+    position: relative;
+    max-height: 60vh;
+    border-radius: 0.25rem;
+    overflow: hidden;
+    -webkit-transition: -webkit-transform 0.3s, -webkit-box-shadow 0.3s;
+    transition: -webkit-transform 0.3s, -webkit-box-shadow 0.3s;
+    transition: transform 0.3s, box-shadow 0.3s;
+    transition: transform 0.3s, box-shadow 0.3s, -webkit-transform 0.3s, -webkit-box-shadow 0.3s;
+}
+.home .related-entries .card3:hover {
+    -webkit-transform: scale(1.02);
+    transform: scale(1.02);
+    -webkit-box-shadow: 0 3px 20px rgba(16, 14, 23, 0.2);
+    box-shadow: 0 3px 20px rgba(16, 14, 23, 0.2);
+    cursor: pointer;
+}
+.home .related-entries .card3 span {
+    position: absolute;
+    bottom: 0px;
+    display: block;
+    color: white !important;
+    font-weight: bold;
+    padding: 10px 20px;
+    text-align: right;
+    background-color: rgba(0, 0, 0, 0.35);
+    font-size: 1.2rem;
+    width: 100%;
+    text-align: left;
+    margin-bottom: 0px;
+    min-height: 20%;
+    text-decoration: none;
+}
+.home .related-entries .col-md-6 { margin-bottom: 32px; }
+.home .post-list-group h3 { margin-bottom: 5vmin; }
+.home .author-image img { margin-right: 10px;
+    height: 40px !important;
+    width: 40px !important;
+    float: left;
+    border-radius: 30px;
+}
+.home .top-posts { padding: 0px !important; }
+.home .top-posts .more.text-center { margin-top: 20px; margin-bottom: 32px; }
+
+.author .author-image { float: left; margin-right: 10px; }
+/**************** not found *************/
+.not-found-sec { text-align:center; padding: 80px 0px; }
+.not-found-cont { margin: 50px; }
+.not-found-search {	width: 60%; margin: 0 auto; }
+.not-found-search button.btn.btn-default { background: #007bff; }
+.not-found-search i.glyphicon.glyphicon-search { color: #fff; }
+.single .card-text .social-sharing.ss-social-sharing { margin-top: 15px; margin-bottom: -50px; }
+
+/*************************************************/
+span.smessage {
+	color: green;
+    border: 1px solid green;
+    padding: 10px 15px;
+    width: 100%;
+    display: block;
+}
+span.emessage{
+	color: red;
+	border: 1px solid red;
+	padding: 10px 15px;
+    width: 100%;
+    display: block;
+}
+.contactpage-form textarea.form-control {
+    height: 10rem;
+}
+.contactpage-form button.sub-btn {
+    float: right;
+    /* width: 20%; */
+    background: #007bff;
+    border: none;
+    height: 3rem;
+    color: #fff;
+    padding: 0 2rem;
+    font-weight: 600;
+    letter-spacing: 2px;
+    border-radius: 6px;
+}
+.contactpage-form button.sub-btn:hover { cursor: pointer; }
+.contact-loader img {
+    width: 4%;
+    margin-top: 10px;
+    float: right;
+    margin-right: 15px;
+}

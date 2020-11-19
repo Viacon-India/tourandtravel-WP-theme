@@ -1,0 +1,1 @@
+<div class="nothing-found-class"><?php _e('Nothing found','impackd')?></div>

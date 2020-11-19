@@ -1,0 +1,94 @@
+.sidebar-section .search-form label,
+.sidebar-section .search-form input {
+  width: 100% !important;
+}
+
+.sidebar-section .emaillist input[type="submit"] {
+  height: 38px;
+}
+
+.sidebar-section .emaillist input[type="submit"]:hover {
+  background-color: #297AD6;
+  border: 1px solid #007bff;
+  color: white;
+}
+
+.sidebar-section .social-sidebar {
+  background-color: inherit;
+  padding-bottom: 0px;
+}
+
+.sidebar-section .social-sidebar li {
+  padding-left: 0vmin;
+  padding-right: 0vmin;
+  border-bottom: none;
+  color: grey;
+}
+
+.sidebar-section .social-sidebar li a i {
+  margin-right: 10px;
+  color: inherit !important;
+}
+
+.sidebar-section .social-sidebar li a:hover {
+  color: #297AD6 !important;
+}
+
+.sidebar-section .social-sidebar :last-child {
+  margin-bottom: 0px !important;
+}
+
+.sidebar-section > section,
+.sidebar-section > div {
+  margin-top: 1.5vmin !important;
+  border: none !important;
+  -webkit-box-shadow: 0 3px 10px whitesmoke;
+          box-shadow: 0 3px 10px whitesmoke;
+  padding: 15px;
+  border-radius: 3px;
+}
+
+.sidebar-section > section label,
+.sidebar-section > div label {
+  margin-bottom: 0px !important;
+}
+
+.sidebar-section > section input,
+.sidebar-section > div input {
+  display: block;
+  width: 100%;
+  height: calc(2.25rem + 2px);
+  padding: 0.375rem 0.75rem;
+  font-size: 1rem;
+  line-height: 1.5;
+  color: #495057;
+  background-color: #fff;
+  background-clip: padding-box;
+  border: 1px solid #ced4da;
+  border-radius: 0.25rem;
+  -webkit-transition: border-color 0.15s ease-in-out, -webkit-box-shadow 0.15s ease-in-out;
+  transition: border-color 0.15s ease-in-out, -webkit-box-shadow 0.15s ease-in-out;
+  transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+  transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out, -webkit-box-shadow 0.15s ease-in-out;
+}
+
+.sidebar-section > section ul,
+.sidebar-section > div ul {
+  margin-bottom: 0px;
+  padding: 1vmin;
+}
+
+.sidebar-section > section a,
+.sidebar-section > div a {
+  color: inherit !important;
+}
+
+.sidebar-section > section a:hover,
+.sidebar-section > div a:hover {
+  color: #297AD6 !important;
+}
+
+.sidebar-section .sidebar-recent-posts {
+  overflow: hidden;
+}
+/*# sourceMappingURL=sidebar.css.map */
